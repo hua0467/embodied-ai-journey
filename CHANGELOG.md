@@ -7,6 +7,7 @@
 ## [Unreleased]
 
 ### Added
+- `02-vla-data-pipeline/IK求解器从v1到v2重构实录.md` — 全局联合 17-DOF IK、6 项 bug 修复、8 项单元测试、低通滤波
 - README 专业门面重构（徽章、受众导航、目录速查、技术栈、Roadmap）
 - 4天日记独立拆分至 `00-getting-started/`，新增汽车-机器人技术对照表
 - LICENSE (MIT)、CHANGELOG.md

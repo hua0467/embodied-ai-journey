@@ -28,7 +28,7 @@
 
 ---
 
-## LeRobot：具身智能数据集的"国际标准"
+## Le[text](vscode-webview://0khplibjnnd4r0p5jtdopb8lg3aagh8m3hohlqgqdqfmehln3bad/scripts/ik_solver.py)Robot：具身智能数据集的"国际标准"
 
 π₀.₅ 只认一种数据格式，叫 LeRobot（HuggingFace 搞的）。现在最新版是 v3.0。一个 LeRobot 数据集的目录长这样：
 

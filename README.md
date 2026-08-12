@@ -48,7 +48,8 @@ embodied-ai-journey/
 │
 ├── 02-vla-data-pipeline/                  ← VLA 数据管线 · Data Pipeline
 │   ├── 从手到数据-VR遥操管线到底在跑什么.md     VR Teleop Pipeline: From Hand Tracking to Training Data
-│   └── 给机器人基础模型准备教材-openpi数据格式学习笔记.md  π₀.₅ Data Format: LeRobot v3.0 & OpenPI Inside Out
+│   ├── 给机器人基础模型准备教材-openpi数据格式学习笔记.md  π₀.₅ Data Format: LeRobot v3.0 & OpenPI Inside Out
+│   └── IK求解器从v1到v2重构实录.md             IK Solver v2: 6 Bugs Fixed, Global 17-DOF, Unit Tests
 │
 ├── 03-robot-dog-field-notes/              ← 规划中 · Planned
 ├── 04-vehicle-to-robot-control-mapping/   ← 规划中 · Planned
