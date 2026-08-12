@@ -1,6 +1,6 @@
 # 给机器人基础模型准备教材：π₀.₅ 数据格式学习笔记
 
-> **TL;DR**：拆解 π₀.₅（OpenPI）模型训练所需的 LeRobot v3.0 数据格式。覆盖：8 个必须字段及常见坑、四层数据 transform 管线（Repack→Data→Model→Normalization）、分位数归一化原理、训练启动前置条件检查清单。附带每层 transform 的汽车工程类比，帮助车辆/控制背景的读者快速建立直觉。
+> **快速了解**：拆解 π₀.₅（OpenPI）模型训练所需的 LeRobot v3.0 数据格式。覆盖：8 个必须字段及常见坑、四层数据 transform 管线（Repack→Data→Model→Normalization）、分位数归一化原理、训练启动前置条件检查清单。附带每层 transform 的汽车工程类比，帮助车辆/控制背景的读者快速建立直觉。
 
 ---
 

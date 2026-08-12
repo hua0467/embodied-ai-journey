@@ -1,6 +1,6 @@
 # 从手到数据：VR 遥操管线到底在跑什么
 
-> **TL;DR**：拆解 Quest 3 VR 手部追踪 → 机器人训练数据的完整四层链路。第一层：Quest 3 摄像头追踪 21 个手部关键点。第二层：Hand Tracking Streamer 通过 UDP/WiFi 把数据广播到 PC。第三层：Python 脚本接收并按 30FPS 录制成 HDF5。第四层：HDF5 转 LeRobot Parquet + 元数据 → 喂给 π₀.₅ 训练。附带每层的汽车工程类比和管线全景 ASCII 图。
+> **快速了解**：拆解 Quest 3 VR 手部追踪 → 机器人训练数据的完整四层链路。第一层：Quest 3 摄像头追踪 21 个手部关键点。第二层：Hand Tracking Streamer 通过 UDP/WiFi 把数据广播到 PC。第三层：Python 脚本接收并按 30FPS 录制成 HDF5。第四层：HDF5 转 LeRobot Parquet + 元数据 → 喂给 π₀.₅ 训练。附带每层的汽车工程类比和管线全景 ASCII 图。
 
 ---
 
