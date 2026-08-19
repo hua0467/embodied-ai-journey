@@ -9,6 +9,7 @@
 - 从手到数据：VR 遥操管线 → [赛道拆解：Demo 场景与付费场景](../03-post_intern_iterate/01_industry_track_decompose.md)
 - openpi 数据格式学习笔记 → [复盘：数据管线的壁垒与边界](../03-post_intern_iterate/03_data_infra_border_and_barrier.md)
 - 真机遥操第一天（构型失控与 J3 排查）→ [行业幻觉与伪需求](../03-post_intern_iterate/02_industry_myth_and_fake_demand.md) · [硬科技创业死亡风险清单](../03-post_intern_iterate/05_hardtech_startup_risk_list.md)
+- 真机遥操第二天（夹爪信号去哪了）→ [复盘：数据管线的壁垒与边界](../03-post_intern_iterate/03_data_infra_border_and_barrier.md)
 
 > ⚠️ 注意：后期思考是事后复盘，不等于实习当时就拥有这些认知。
 >

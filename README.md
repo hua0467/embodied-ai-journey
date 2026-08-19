@@ -65,7 +65,8 @@ embodied-ai-journey/
 │   ├── 从手到数据-VR遥操管线到底在跑什么.md     VR Teleop Pipeline: From Hand Tracking to Training Data
 │   ├── 给机器人基础模型准备教材-openpi数据格式学习笔记.md  π₀.₅ Data Format: LeRobot v3.0 & OpenPI Inside Out
 │   ├── IK求解器从v1到v2重构实录.md             IK Solver v2: 6 Bugs Fixed, Global 17-DOF, Unit Tests
-│   └── 真机遥操第一天-机器人动了也拧了.md        Real-Robot Teleop Day 1: It Moved, and It Twisted
+│   ├── 真机遥操第一天-机器人动了也拧了.md        Real-Robot Teleop Day 1: It Moved, and It Twisted
+│   └── 真机遥操第二天-夹爪信号去哪了.md          Real-Robot Teleop Day 2: The Missing Gripper Signal
 │
 ├── 03-post_intern_iterate/                ← ✨后期迭代思考 · Growth Line（骨架，正文迭代中）
 │   ├── 00_my_growth_journey.md            成长自述：从修 bug 到看生意
@@ -97,7 +98,7 @@ embodied-ai-journey/
 <details>
 <summary><strong>🅱️ 机器人 / 自动驾驶研发</strong></summary>
 
-直奔 [VR遥操管线](02-vla-data-pipeline/从手到数据-VR遥操管线到底在跑什么.md)、[真机遥操第一天](02-vla-data-pipeline/真机遥操第一天-机器人动了也拧了.md) 和 [openpi 数据格式笔记](02-vla-data-pipeline/给机器人基础模型准备教材-openpi数据格式学习笔记.md) → 关注每篇文末的「汽车-机器人对照表」→ 整车-机器人控制对照手册规划中（实习期工程笔记，后续进 02）
+直奔 [VR遥操管线](02-vla-data-pipeline/从手到数据-VR遥操管线到底在跑什么.md)、[真机遥操第一天](02-vla-data-pipeline/真机遥操第一天-机器人动了也拧了.md)、[真机遥操第二天](02-vla-data-pipeline/真机遥操第二天-夹爪信号去哪了.md) 和 [openpi 数据格式笔记](02-vla-data-pipeline/给机器人基础模型准备教材-openpi数据格式学习笔记.md) → 关注每篇文末的「汽车-机器人对照表」→ 整车-机器人控制对照手册规划中（实习期工程笔记，后续进 02）
 </details>
 
 <details>
