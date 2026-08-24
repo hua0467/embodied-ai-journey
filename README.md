@@ -68,6 +68,12 @@ embodied-ai-journey/
 │   ├── 真机遥操第一天-机器人动了也拧了.md        Real-Robot Teleop Day 1: It Moved, and It Twisted
 │   └── 真机遥操第二天-夹爪信号去哪了.md          Real-Robot Teleop Day 2: The Missing Gripper Signal
 │
+├── lerobot-act-training/                  ← 实习原始记录 · Training（2026.8.24 新增）
+│   ├── README.md                            LeRobot ACT Training on RTX 4090
+│   ├── training_commands.md                 训练命令全集（可直接复制）
+│   ├── issues_and_solutions.md              8 个踩坑全记录（报错原文+原因+解法）
+│   └── training_logs/                       分日日志：环境配置 / 10 步 / 500 步 / 2000 步
+│
 ├── 03-post_intern_iterate/                ← ✨后期迭代思考 · Growth Line（骨架，正文迭代中）
 │   ├── 00_my_growth_journey.md            成长自述：从修 bug 到看生意
 │   ├── 01_industry_track_decompose.md     赛道拆解：Demo 场景与付费场景
@@ -134,6 +140,7 @@ LLM/RAG：LangChain · 向量检索 · 语义分块 · Agent 四种范式 · Pro
 | **已完成** | 4天入门日记、GitHub 指南、AI 工具协同方法论 | ✅ |
 | **已完成** | VR 遥操管线全链路、openpi 数据格式学习笔记、IK v2 重构实录 | ✅ |
 | **已完成** | 真机遥操第一天（链路跑通 + 构型失控排查实录） | ✅ |
+| **已完成** | LeRobot ACT 训练链路验证（RTX 4090 环境搭建 → 官方示例数据 2000 步训练跑通） | ✅ |
 | **进行中** | 阶段②目录骨架：成长自述/赛道拆解/伪需求/壁垒复盘/打分表/风险清单/场景案例/MVP（正文自 8.26 ARE 展会起逐篇填充） | 🔄 |
 | **短期** | 机器狗实操笔记（SLAM 建图调参、MPC 步态力控、A* 路径规划踩坑，实习期工程笔记 → 00-02） | 📋 |
 | **短期** | 企业级 RAG 落地（巡检知识库原型、分块策略对比、检索评测） | 📋 |
@@ -146,7 +153,7 @@ LLM/RAG：LangChain · 向量检索 · 语义分块 · Agent 四种范式 · Pro
 
 ## 👤 作者
 
-**keywassion（梓华）** — 汽车工程大三，更确切的说是汽车服务工程，具身智能研发助理实习生。
+**keywassion（梓华）** — 汽车服务工程大四，具身智能研发助理实习生。
 
 大学挂过高数、线代课本没怎么翻过。但有一个不谦虚的优点：**给我一个东西，我能从底层把它拆明白。** 三个月前连「大模型」和「大数据」都分不清，现在在搭 VLA 数据管线，也会把自己犯过的错一条条写下来。
 
