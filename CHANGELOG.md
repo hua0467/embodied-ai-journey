@@ -7,7 +7,7 @@
 ## [Unreleased]
 
 ### Added
-- `lerobot-act-training/` — RTX 4090 上 LeRobot v0.4.4 + ACT 训练链路验证：README、训练命令全集、8 坑全记录、4 篇分日训练日志（2026.8.24）
+- `lerobot-act-training/` — RTX 4090 上 LeRobot v0.4.4 + ACT 训练链路验证：主线叙事文《4090 上的第一次训练：8 个坑，没有一个是算法问题》、README、训练命令全集、8 坑全记录、4 篇分日训练日志（2026.8.24）
 - `zhihu-article-2026-08-24.md` — 知乎文章《我用 4090 跑通了机器人模仿学习训练》（2026.8.24）
 - `02-vla-data-pipeline/IK求解器从v1到v2重构实录.md` — 全局联合 17-DOF IK、6 项 bug 修复、8 项单元测试、低通滤波
 - `02-vla-data-pipeline/真机遥操第一天-机器人动了也拧了.md` — 真机遥操链路跑通、安全状态机三件套、构型失控应急五步、J3 编码器排查实录
