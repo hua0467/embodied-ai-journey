@@ -45,4 +45,4 @@ WANDB_MODE=disabled python -m lerobot.scripts.lerobot_train \
 
 ## 下一步
 
-换成自己采的 VR 遥操作真机数据，重复这条链路——数据格式对齐见 [openpi 数据格式笔记](../../02-vla-data-pipeline/给机器人基础模型准备教材-openpi数据格式学习笔记.md)。
+换成自己采的 VR 遥操作真机数据，重复这条链路——数据格式对齐见 [openpi 数据格式笔记](../../02-VLA数据管线-从遥操到真机/给机器人基础模型准备教材-openpi数据格式学习笔记.md)。

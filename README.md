@@ -24,8 +24,8 @@
 
 | 阶段 | 对应目录 | 说明 |
 |------|----------|------|
-| **阶段① 短期实习阶段** | `00-getting-started` `01-internship-toolchain` `02-vla-data-pipeline` | 刚接触机器人项目十几天，聚焦解决工程 bug、吃透 IK、遥操作数据管线模块。此时只看见技术实现，对商业、客户、供应链几乎没有概念，存在不少认知盲区。**文档原样保留，不作美化修改。** |
-| **阶段② 产业观察与复盘（8.26 ARE 展会起）** | `03-post_intern_iterate` `04-vertical_case_study` `05-mvp_practice` | 2026.8.26 ARE 展会（第18届深圳国际工业自动化及机器人展览会）之后，在已有的工程经验基础上，向外拓展产业、商业、场景、创业维度思考。**这一部分是持续迭代的，会不断推翻、修正自己过去的观点，存在错误与片面判断，属于个人成长记录，不是成熟行业报告。** 目标：训练自己的产业嗅觉，向硬科技产业新贵的方向持续成长。 |
+| **阶段① 短期实习阶段** | `00-入门日记-4天从汽车到机器狗` `01-实习工具链-GitHub与AI协同` `02-VLA数据管线-从遥操到真机` | 刚接触机器人项目十几天，聚焦解决工程 bug、吃透 IK、遥操作数据管线模块。此时只看见技术实现，对商业、客户、供应链几乎没有概念，存在不少认知盲区。**文档原样保留，不作美化修改。** |
+| **阶段② 产业观察与复盘（8.26 ARE 展会起）** | `03-产业观察-后期迭代思考` `04-场景案例-垂直赛道研究` `05-MVP练习-最小可行闭环` | 2026.8.26 ARE 展会（第18届深圳国际工业自动化及机器人展览会）之后，在已有的工程经验基础上，向外拓展产业、商业、场景、创业维度思考。**这一部分是持续迭代的，会不断推翻、修正自己过去的观点，存在错误与片面判断，属于个人成长记录，不是成熟行业报告。** 目标：训练自己的产业嗅觉，向硬科技产业新贵的方向持续成长。 |
 
 > 🚧 当前进度：阶段②目录已于 2026.8.13 建立骨架（目录与提纲），正文自 2026.8.26 ARE 2026 展会起逐步填充——**这是规划，不是已完成的东西，如实展示。**
 
@@ -53,14 +53,14 @@ embodied-ai-journey/
 ├── LICENSE                                (MIT)
 ├── CHANGELOG.md                           (更新日志)
 │
-├── 00-getting-started/                    ← 实习原始记录 · New? Start here（冻结区，只增不改）
+├── 00-入门日记-4天从汽车到机器狗/                    ← 实习原始记录 · New? Start here（冻结区，只增不改）
 │   └── 4天从汽车到机器狗.md                 Auto→Embodied AI: A 4-Day Cross-Domain Diary
 │
-├── 01-internship-toolchain/               ← 实习原始记录 · Toolchain（冻结区）
+├── 01-实习工具链-GitHub与AI协同/               ← 实习原始记录 · Toolchain（冻结区）
 │   ├── GitHub从零发布完全指南.md             GitHub from Zero: Intern's First Open Source Guide
 │   └── AI工具协同作战-企业级项目落地方法论.md   Multi-AI Collaboration: From Solo to Engineering Team
 │
-├── 02-vla-data-pipeline/                  ← 实习原始记录 · Data Pipeline（冻结区）
+├── 02-VLA数据管线-从遥操到真机/                  ← 实习原始记录 · Data Pipeline（冻结区）
 │   ├── _02_post_ref_index.md              ← 后期复盘索引（新增，只做外部链接，不动旧文）
 │   ├── 从手到数据-VR遥操管线到底在跑什么.md     VR Teleop Pipeline: From Hand Tracking to Training Data
 │   ├── 给机器人基础模型准备教材-openpi数据格式学习笔记.md  π₀.₅ Data Format: LeRobot v3.0 & OpenPI Inside Out
@@ -68,17 +68,17 @@ embodied-ai-journey/
 │   ├── 真机遥操第一天-机器人动了也拧了.md        Real-Robot Teleop Day 1: It Moved, and It Twisted
 │   └── 真机遥操第二天-夹爪信号去哪了.md          Real-Robot Teleop Day 2: The Missing Gripper Signal
 │
-├── lerobot-act-training/                  ← 实习原始记录 · Training（2026.8.24 新增）
+├── LeRobot-ACT训练实录/                  ← 实习原始记录 · Training（2026.8.24 新增）
 │   ├── README.md                            LeRobot ACT Training on RTX 4090
 │   ├── training_commands.md                 训练命令全集（可直接复制）
 │   ├── issues_and_solutions.md              8 个踩坑全记录（报错原文+原因+解法）
 │   └── training_logs/                       分日日志：环境配置 / 10 步 / 500 步 / 2000 步
 │
-├── lerobot-smolvla-lora/                  ← 实习原始记录 · LoRA 微调（2026.8.27 新增）
+├── LeRobot-SmolVLA-LoRA微调/                  ← 实习原始记录 · LoRA 微调（2026.8.27 新增）
 │   ├── 同一个评估脚本结论从-32.6翻到+37.8-给机器人VLA模型做LoRA微调的一天.md  主线叙事文
 │   └── smolvla-lora-技术笔记.md            技术细节支撑（完整命令、12 坑全表、评估方法学）
 │
-├── 03-post_intern_iterate/                ← ✨后期迭代思考 · Growth Line（首篇成稿，正文迭代中）
+├── 03-产业观察-后期迭代思考/                ← ✨后期迭代思考 · Growth Line（首篇成稿，正文迭代中）
 │   ├── 展会观察笔记-逛了一天我把壁垒划掉了.md    ARE/AGIC 2026 产业观察（阶段②第一篇，2026.8.27）
 │   ├── 00_my_growth_journey.md            成长自述：从修 bug 到看生意
 │   ├── 01_industry_track_decompose.md     赛道拆解：Demo 场景与付费场景
@@ -87,11 +87,11 @@ embodied-ai-journey/
 │   ├── 04_vertical_track_score_sheet.md   垂直赛道打分表
 │   └── 05_hardtech_startup_risk_list.md   硬科技创业死亡风险清单
 │
-├── 04-vertical_case_study/                ← ✨场景案例研究（骨架，正文迭代中）
+├── 04-场景案例-垂直赛道研究/                ← ✨场景案例研究（骨架，正文迭代中）
 │   ├── case_01_industrial_inspect.md      工业检测/巡检机器人
 │   └── case_02_workshop_robot.md          车间操作机器人
 │
-└── 05-mvp_practice/                       ← ✨课后 MVP 练习（骨架，代码迭代中）
+└── 05-MVP练习-最小可行闭环/                       ← ✨课后 MVP 练习（骨架，代码迭代中）
     ├── README.md
     └── minimal_ik_dataset_pipeline_demo.py
 ```
@@ -103,25 +103,25 @@ embodied-ai-journey/
 <details open>
 <summary><strong>🅰️ 工科跨 AI 实习生</strong></summary>
 
-从 [4天从汽车到机器狗](00-getting-started/4天从汽车到机器狗.md) 开始 → 然后读 [AI工具协同作战](01-internship-toolchain/AI工具协同作战-企业级项目落地方法论.md) 学怎么用 AI 提高效率 → 需要搭 GitHub 时看 [GitHub 完全指南](01-internship-toolchain/GitHub从零发布完全指南.md)
+从 [4天从汽车到机器狗](00-入门日记-4天从汽车到机器狗/4天从汽车到机器狗.md) 开始 → 然后读 [AI工具协同作战](01-实习工具链-GitHub与AI协同/AI工具协同作战-企业级项目落地方法论.md) 学怎么用 AI 提高效率 → 需要搭 GitHub 时看 [GitHub 完全指南](01-实习工具链-GitHub与AI协同/GitHub从零发布完全指南.md)
 </details>
 
 <details>
 <summary><strong>🅱️ 机器人 / 自动驾驶研发</strong></summary>
 
-直奔 [VR遥操管线](02-vla-data-pipeline/从手到数据-VR遥操管线到底在跑什么.md)、[真机遥操第一天](02-vla-data-pipeline/真机遥操第一天-机器人动了也拧了.md)、[真机遥操第二天](02-vla-data-pipeline/真机遥操第二天-夹爪信号去哪了.md) 和 [openpi 数据格式笔记](02-vla-data-pipeline/给机器人基础模型准备教材-openpi数据格式学习笔记.md) → 关注每篇文末的「汽车-机器人对照表」→ 整车-机器人控制对照手册规划中（实习期工程笔记，后续进 02）
+直奔 [VR遥操管线](02-VLA数据管线-从遥操到真机/从手到数据-VR遥操管线到底在跑什么.md)、[真机遥操第一天](02-VLA数据管线-从遥操到真机/真机遥操第一天-机器人动了也拧了.md)、[真机遥操第二天](02-VLA数据管线-从遥操到真机/真机遥操第二天-夹爪信号去哪了.md) 和 [openpi 数据格式笔记](02-VLA数据管线-从遥操到真机/给机器人基础模型准备教材-openpi数据格式学习笔记.md) → 关注每篇文末的「汽车-机器人对照表」→ 整车-机器人控制对照手册规划中（实习期工程笔记，后续进 02）
 </details>
 
 <details>
 <summary><strong>🅲️ 校招求职</strong></summary>
 
-看 [AI工具协同作战](01-internship-toolchain/AI工具协同作战-企业级项目落地方法论.md) 证明工程落地能力 → 看 [真机遥操第一天](02-vla-data-pipeline/真机遥操第一天-机器人动了也拧了.md) 证明排障与系统思维 → 看 [成长自述](03-post_intern_iterate/00_my_growth_journey.md) 和 [行业幻觉](03-post_intern_iterate/02_industry_myth_and_fake_demand.md) 了解这个人的认知边界与迭代习惯 → README 底部 Roadmap 证明持续产出能力 → 简历引用本仓库作为 PoW（工作量证明）
+看 [AI工具协同作战](01-实习工具链-GitHub与AI协同/AI工具协同作战-企业级项目落地方法论.md) 证明工程落地能力 → 看 [真机遥操第一天](02-VLA数据管线-从遥操到真机/真机遥操第一天-机器人动了也拧了.md) 证明排障与系统思维 → 看 [成长自述](03-产业观察-后期迭代思考/00_my_growth_journey.md) 和 [行业幻觉](03-产业观察-后期迭代思考/02_industry_myth_and_fake_demand.md) 了解这个人的认知边界与迭代习惯 → README 底部 Roadmap 证明持续产出能力 → 简历引用本仓库作为 PoW（工作量证明）
 </details>
 
 <details>
 <summary><strong>🅳️ 硬科技爱好者 / 早期创业者</strong></summary>
 
-从 [赛道拆解](03-post_intern_iterate/01_industry_track_decompose.md) 和 [死亡风险清单](03-post_intern_iterate/05_hardtech_startup_risk_list.md) 看产业判断框架 → [场景案例](04-vertical_case_study/) 看具体场景推演 → 记住这些内容都标注了瑕疵与信息缺口，是思路参考，不是行业报告
+从 [赛道拆解](03-产业观察-后期迭代思考/01_industry_track_decompose.md) 和 [死亡风险清单](03-产业观察-后期迭代思考/05_hardtech_startup_risk_list.md) 看产业判断框架 → [场景案例](04-场景案例-垂直赛道研究/) 看具体场景推演 → 记住这些内容都标注了瑕疵与信息缺口，是思路参考，不是行业报告
 </details>
 
 ---
