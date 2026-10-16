@@ -1,0 +1,9 @@
+*.pt
+*.ckpt
+*.mp4
+*.usd
+*.usda
+logs/
+__pycache__/
+*.pyc
+.cache/
